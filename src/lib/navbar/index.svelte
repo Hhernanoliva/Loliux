@@ -1,4 +1,5 @@
 <script>
+    import Burger from "$lib/navbar/hamburger.svelte"
     const links = [
         {name: "Servicios", path: "servicios"},
         {name: "Contactos", path: "contactos"},
@@ -6,9 +7,6 @@
         {name: "Ayuda", path: "ayuda"}
     ];
 
-    
-    const prueba = ""
-    
     const logoName = "Nube";
 </script>
 
@@ -26,12 +24,13 @@
             {/each}
         </div>
 
-        <div class="flex md:hidden">MENU</div>
+        <div class="flex md:hidden">
+            <Burger />
+        </div>
     </div>
 </nav>
 
 <style lang="scss">
-    @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
     
     #logo{
         font-family: 'Nunito', sans-serif;
