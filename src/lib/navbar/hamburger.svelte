@@ -4,10 +4,10 @@
 
 <button class="cursor-pointer mr-4 border-none focus:outline-none" 
 		class:open on:click={() => open = !open}>
-	<svg width=35 height=24>
-		<line id="top" x1=0 y1=2  x2=32 y2=2/>
-		<line id="middle" x1=0 y1=12 x2=32 y2=12/>
-		<line id="bottom" x1=0 y1=22 x2=32 y2=22/>
+	<svg width=25 height=20>
+		<line id="top" x1=-100 y1=0  x2=26 y2=2/>
+		<line id="middle" x1=0 y1=12 x2=22 y2=12/>
+		<line id="bottom" x1=-100 y1=22 x2=26 y2=22/>
 	</svg>
 </button>
 
@@ -32,7 +32,7 @@
 	}
 	
 	.open #top {
-		transform: translate(6px, 0px) rotate(45deg)
+		transform: translate(4px, 2px) rotate(45deg)
 	}
 	
 	.open #middle {
@@ -40,6 +40,6 @@
 	}
 	
   .open #bottom {
-		transform: translate(-12px, 9px) rotate(-45deg)
+		transform: translate(-14px, 4px) rotate(-45deg)
 	}
 </style>

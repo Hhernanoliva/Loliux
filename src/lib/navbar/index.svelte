@@ -1,16 +1,9 @@
 <script>
     import Burger from "$lib/navbar/hamburger.svelte"
     import LogoSvg from "$lib/assets/logo-svg.svelte"
+    import {navbar}  from "$lib/data.json"
 
-    const links = [
-    {name: "Servicios", path: "servicios"},
-    {name: "Contactos", path: "contactos"},
-    {name: "Nosotros", path: "nosotros"},
-    {name: "Ayuda", path: "ayuda"}
-];
-    const logoName = "Leonela Venturo";
-
-    export let sidebar = false
+    export let sidebar = false;
 
 </script>
 
@@ -24,17 +17,17 @@
                 <LogoSvg />
             </div>
             
-            <p class="text-3xl tracking-normal tracking-widest pt-1 md:pt-0 pl-2" style="font-family: 'Forum', cursive;">{logoName}</p>
+            <p class="text-2xl md:text-3xl tracking-normal tracking-widest pt-1 md:pt-0 pl-2" style="font-family: 'Forum', cursive;">{navbar.logoName}</p>
         </a>
 
         <div id="links" class="mr-2 hidden md:flex">
-            {#each links as link }
+            {#each navbar.links as link }
                 <a href="{link.path}" class="px-2 mx-2 text-base tracking-wide transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-y-90  hover:bg-amber-200 duration-500 rounded-lg ...">{link.name}</a>
             {/each}
         </div>
 
         <div class="flex md:hidden">
-            <Burger bind:open={sidebar}/>
+            <Burger bind:open={sidebar} />
         </div>
     </div>
 </nav>

@@ -1,0 +1,10 @@
+{
+    "navbar":{
+        "links": 
+            [
+                {"name": "Sobre Mi", "path": "about"},
+                {"name": "Proyectos", "path": "projects"},
+                {"name": "Contacto", "path": "contact"} 
+            ],
+        "logoName": "Leonela Venturo"}
+}
