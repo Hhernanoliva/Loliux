@@ -1,9 +1,15 @@
 <script>
     import Burger from "$lib/navbar/hamburger.svelte"
     import LogoSvg from "$lib/assets/logo-svg.svelte"
-    import "$lib/navbar/variable.js"
 
-    let logoName
+    const links = [
+    {name: "Servicios", path: "servicios"},
+    {name: "Contactos", path: "contactos"},
+    {name: "Nosotros", path: "nosotros"},
+    {name: "Ayuda", path: "ayuda"}
+];
+    const logoName = "Leonela Venturo";
+
     export let sidebar = false
 
 </script>
