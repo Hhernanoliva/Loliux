@@ -4,7 +4,7 @@
 	export let open = false;
 </script>
 
-<aside class="absolute w-full h-full border-r-2 shadow-lg" class:open>
+<aside class="absolute w-full h-full shadow-lg" class:open>
     <!-- <div id="links" class="mr-2 hidden md:flex">
         {#each links as link }
             <a href="{link.path}" class="px-2 mx-2 text-base tracking-wide transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-y-90  hover:bg-amber-200 duration-500 rounded-lg ...">{link.name}</a>
