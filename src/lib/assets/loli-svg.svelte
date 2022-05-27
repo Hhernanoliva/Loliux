@@ -49,26 +49,27 @@
 
 <style>
     .lolisvg{
-        position: absolute;
+        /* position: absolute;
         top: 50%;
         left: 60%;
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%); */
+        width: 100%;
     }
     .svg{width: 220px}
     @media screen and (min-width: 640px) {
-        .lolisvg{width: 100px}
+        .lolisvg{width: 185px}
         .svg{width: 220px}
     }
-    @media screen and (min-width: 768px) {
-        .lolisvg{width: 200px}
+    @media screen and (max-width: 768px) {
+        .lolisvg{display: none;}
         .svg{width: 280px}
     }
     @media screen and (min-width: 1024px) {
-        .lolisvg{width: 300px}
+        .lolisvg{width: 330px}
         .svg{width: 360px}
     }
     @media screen and (min-width: 1280px) {
-        .lolisvg{width: 400px}
+        /* .lolisvg{width: 400px} */
         .svg{width: 400px}
     }
 
