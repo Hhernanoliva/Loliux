@@ -4,3 +4,10 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+
+:root {
+    --primary-color: #303442;
+    --secundary-color: #FCE7C7;
+    color: var(--secundary-color);
+  }

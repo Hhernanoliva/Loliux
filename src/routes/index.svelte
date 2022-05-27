@@ -1,8 +1,8 @@
 <script>
     import "../app.scss";
     import Button from "$lib/button.svelte"
-    
 </script>
+
 
 <h1  class="text-9xl titulo">eNube</h1>
 

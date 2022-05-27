@@ -1,47 +1,49 @@
 <script>
     import Burger from "$lib/navbar/hamburger.svelte"
-    const links = [
-        {name: "Servicios", path: "servicios"},
-        {name: "Contactos", path: "contactos"},
-        {name: "Nosotros", path: "nosotros"},
-        {name: "Ayuda", path: "ayuda"}
-    ];
+    import LogoSvg from "$lib/assets/logo-svg.svelte"
+    import "$lib/navbar/variable.js"
 
-    const logoName = "Nube";
+    let logoName
+    export let sidebar = false
+
 </script>
 
+
+
 <nav>
-    <div id="navbar" class="flex justify-between items-center px-2 py-3 max-h-20 ">
+    <div id="navbar" class="flex justify-between items-center px-2 py-1 md:py-3 max-h-20 ">
 
         <a id="logo" href="/" class="flex items-center">
-            <img src="logopng2k.png" alt="" class="mx-2">
-            <p class="text-3xl font-bold tracking-normal">{logoName}</p>
+            <div class="md:hidden px-2">
+                <LogoSvg />
+            </div>
+            
+            <p class="text-3xl tracking-normal tracking-widest pt-1 md:pt-0 pl-2" style="font-family: 'Forum', cursive;">{logoName}</p>
         </a>
 
-        <div id="links" class="mr-2 hidden md:flex ">
+        <div id="links" class="mr-2 hidden md:flex">
             {#each links as link }
-                <a href="{link.path}" class="px-4 text-base font-medium tracking-wide transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-y-90  hover:bg-amber-200 duration-500 rounded-lg ...">{link.name}</a>
+                <a href="{link.path}" class="px-2 mx-2 text-base tracking-wide transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-y-90  hover:bg-amber-200 duration-500 rounded-lg ...">{link.name}</a>
             {/each}
         </div>
 
         <div class="flex md:hidden">
-            <Burger />
+            <Burger bind:open={sidebar}/>
         </div>
     </div>
 </nav>
 
 <style lang="scss">
     
-    #logo{
-        font-family: 'Nunito', sans-serif;
-    }
+    // nav{
+    //     z-index: 100;
+    // }
     #navbar{
-        background-color: rgba(255, 136, 0, 0.726);
+        background-color: var(--primary-color);
         
     }
     #links{
         font-family: 'Montserrat', sans-serif;
-        
     }
 
 
