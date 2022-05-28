@@ -8,7 +8,7 @@
         <LogoSvgXL />
     </div>
     <div class="flex justify-center flex-col">
-        <h1>{@html hero.h1}</h1>
+        <h1 class="">{@html hero.h1}</h1>
         <h2>{@html hero.h2}</h2>
         <p>{@html hero.p}</p>
     </div>
