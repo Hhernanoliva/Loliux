@@ -20,3 +20,6 @@
 </header>
 
 <slot />
+<style>
+  
+</style>
