@@ -3,14 +3,16 @@
     import LogoSvgXL from "$lib/assets/loli-svg.svelte"
 </script>
 
-<div class="hero flex relative justify-center font">
-    <div class="max-w-xs">
+<div class="hero flex relative justify-around font">
+    <div></div>
+    <div class="max-w-xs mt-20">
         <LogoSvgXL />
     </div>
-    <div class="flex justify-center flex-col mx-5">
-        <h1 class="text-4xl xl:text-5xl mb-3 tracking-wide">{@html hero.h1}</h1>
-        <p class="text-1x1 xl:text-2x1 tracking-wide max-w-lg">{@html hero.p}</p>
+    <div class="flex justify-center flex-col mx-5 mb-16 md:mb-5">
+        <h1 class="text-5xl mb-8 md:mb-3 tracking-wide">{@html hero.h1}</h1>
+        <p class="text-1xl tracking-wide max-w-lg">{@html hero.p}</p>
     </div>
+    <div></div>
 </div>
 
 <style>
