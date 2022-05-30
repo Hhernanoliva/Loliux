@@ -8,7 +8,7 @@
     <div class="max-w-xs mt-20">
         <LogoSvgXL />
     </div>
-    <div class="flex justify-center flex-col mx-5 mb-16 md:mb-5">
+    <div class="flex justify-center flex-col mx-5 mb-16 md:mb-5 mt-0 md:mt-10">
         <h1 class="text-5xl mb-8 md:mb-3 tracking-wide">{@html hero.h1}</h1>
         <p class="text-1xl tracking-wide max-w-lg">{@html hero.p}</p>
     </div>
@@ -21,9 +21,7 @@
     height: calc(100vh - 60px);
 }
 }
-.hero{
-    height: calc(100vh - 71px);
-}
+
 .font{
         font-family: 'Montserrat', sans-serif;
     }
