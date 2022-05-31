@@ -1,30 +1,25 @@
 <script>
     import img from "$lib/img/loli.png"
+    import EllipseGradient from "$lib/assets/ellipse-gradient.svelte";
 </script>
 
 <div class="flex flex-col md:flex-row w-full justify-center my-10">
-    <!-- <div class="img-about"> -->
-        <div class="relative mx-10 img-content img-about ">
+        <div class="relative mx-10 img-content relative">
             <img src="{img}" alt="">
+            <div class="absolute inset-0 spin">
+                <EllipseGradient />
+            </div>
+
         </div>
-    <!-- </div> -->
-
-
     <div class="p">
         text 
     </div>
 </div>
 
 <style>
-    .img-about{
-        position: relative;
-        width: 260px;
-        height: 260px;
-    }
-
     .img-content{
-        max-width: 260px;
-        max-height: 260px;
+        width: 200px;
+        height: 200px;
     }
     img{
         width: 100%;
@@ -33,22 +28,9 @@
         z-index: 1;
     }
 
-    .img-about::before{
-        content: "";
-        position: absolute;
-        inset: -6px;
-        border: 3px solid #008BEF;
-        border-color: radial-gradient(#A181FF,#64F083,#FFAA5C,#FF97C9);
-        border-top-color: #A181FF;
-        border-bottom-color: #64F083;
-        border-left-color: #FFAA5C;
-        border-right-color: #FF97C9;
-        border-radius: 50%;
-        z-index: 2;
-        animation: spin 0.6s linear infinite;
-        filter: blur(2px);
+    .spin{
+        animation: spin 10s linear infinite;
     }
-
     @keyframes spin{
         to { transform: rotate(360deg);}
     }
