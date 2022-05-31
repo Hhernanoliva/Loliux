@@ -1,6 +1,9 @@
 <script>
-    import img from "$lib/img/loli.png"
+    import img from "$lib/img/loli.webp"
     import EllipseGradient from "$lib/assets/ellipse-gradient.svelte";
+
+    
+    export let sobreMi;
 </script>
 
 <div class="flex flex-col md:flex-row w-full justify-center my-10">
@@ -12,7 +15,7 @@
 
         </div>
     <div class="p">
-        text 
+        {@html sobreMi}
     </div>
 </div>
 
