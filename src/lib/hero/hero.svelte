@@ -23,6 +23,9 @@
 }
 
 .font{
-        font-family: 'Montserrat', sans-serif;
-    }
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    padding-left: 4px;
+}
 </style>

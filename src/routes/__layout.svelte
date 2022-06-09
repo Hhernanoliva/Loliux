@@ -13,7 +13,7 @@
 
 <header>
   <Sidebar bind:open dbNav={dbNavlink} />
-  <nav class="w-screen">
+  <nav>
     <Navbar bind:sidebar={open}/>
   </nav>
 

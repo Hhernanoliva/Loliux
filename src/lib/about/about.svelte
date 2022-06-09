@@ -6,8 +6,8 @@
     export let sobreMi;
 </script>
 
-<div class="flex flex-col md:flex-row w-full justify-center my-10">
-        <div class="relative mx-10 img-content relative">
+<div class="flex flex-col md:flex-row justify-center my-10 w-full">
+        <div class="relative mx-10 img-content grid grid-cols-2">
             <img src="{img}" alt="">
             <div class="absolute inset-0 spin">
                 <EllipseGradient />
