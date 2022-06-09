@@ -1,22 +1,26 @@
 <script>
     import img from "$lib/img/loli.webp"
     import EllipseGradient from "$lib/assets/ellipse-gradient.svelte";
+    import {about} from "$lib/data.json"
 
-    
-    export let sobreMi;
 </script>
 
-<div class="flex flex-col md:flex-row justify-center my-10 w-full">
-        <div class="relative mx-10 img-content grid grid-cols-2">
-            <img src="{img}" alt="">
-            <div class="absolute inset-0 spin">
-                <EllipseGradient />
-            </div>
+<div class=" md:my-20 w-full grid grid-cols-1 md:grid-cols-4 gap-x-5">
 
+    <div class="relative md:mx-10 img-content ">
+        <img src="{img}" alt="" >
+        <div class="absolute inset-0 spin ">
+            <EllipseGradient />
         </div>
-    <div class="p">
-        {@html sobreMi}
     </div>
+
+
+    <div class="p col-span-3" >
+        <h3 class="">
+            {@html about.h3}
+        </h3>
+    </div>
+
 </div>
 
 <style>

@@ -15,7 +15,7 @@
 
 <section>
     <div class="wrap">
-    <About />
+    <About  />
     </div>
 </section>
 
