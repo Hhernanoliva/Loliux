@@ -6,9 +6,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
 
+
 :root {
     --primary-color: #303442;
     --secundary-color: #FCE7C7;
     color: var(--secundary-color);
     background-color: var(--primary-color);
   }
+h1 {
+    font-size: 3.1rem;
+}
+
+h2 {
+    font-size: 2.375rem;
+}
+
+h3{
+    font-size: 1.875rem;
+}
+
+h4{
+    font-size: 1.5rem;
+}
+
+p{
+    font-size: 1.125rem;
+}
+

@@ -6,16 +6,16 @@
 
 
 
-<header>
+<section>
     <div class="wrap">
         <Hero />
     </div>
+</section>
 
-</header>
 
-<section>
-    <div class="wrap">
-    <About  />
+<section class="mt-32">
+    <div class="wrap" >
+        <About  />
     </div>
 </section>
 
@@ -32,7 +32,6 @@
 
     padding-top: 24px;
     padding-bottom: 32px;
-    background-color: rgb(77, 55, 151);
     
 }
 
