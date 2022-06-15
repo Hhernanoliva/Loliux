@@ -11,15 +11,23 @@
 </script>
 
 
-<header>
+<section>
   <Sidebar bind:open dbNav={dbNavlink} />
-  <nav>
+  <nav class="nav">
     <Navbar bind:sidebar={open}/>
   </nav>
-
-</header>
+</section>
 
 <slot />
+
+
 <style>
+  .nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 10;
   
+  }
 </style>

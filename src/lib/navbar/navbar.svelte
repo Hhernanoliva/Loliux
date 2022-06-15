@@ -7,7 +7,7 @@
 
 </script>
 
-<div id="navbar" class="flex justify-between items-center px-2 py-1 md:py-3 max-h-20 ">
+<div id="navbar" class="flex justify-between items-center px-2 pt-4 md:py-3 max-h-20 ">
 
     <a id="logo" href="/" class="flex items-center">
         <p class="text-2xl md:text-3xl tracking-normal tracking-widest pt-1 md:pt-0 pl-2 md:pl-6" style="font-family: 'Forum', cursive;">{navbar.logoName}</p>
@@ -28,6 +28,7 @@
     
     #navbar{
         background-color: var(--primary-color);
+
         
     }
     #links{

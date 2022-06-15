@@ -32,4 +32,24 @@ h4{
 p{
     font-size: 1.125rem;
 }
-
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.9rem;
+    }
+    
+    h2 {
+        font-size: 1.7rem;
+    }
+    
+    h3{
+        font-size: 1.6rem;
+    }
+    
+    h4{
+        font-size: 1.4rem;
+    }
+    
+    p{
+        font-size: 1rem;
+    }
+}
