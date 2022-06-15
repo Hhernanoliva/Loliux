@@ -5,19 +5,21 @@
 </script>
 
 
+<div class="scroll-snap">
+    <section>
+        <div class="wrap">
+            <Hero />
+        </div>
+    </section>
+    
+    
+    <section class="mt-32">
+        <div class="wrap" >
+            <About  />
+        </div>
+    </section>
+</div>
 
-<section>
-    <div class="wrap">
-        <Hero />
-    </div>
-</section>
-
-
-<section class="mt-32">
-    <div class="wrap" >
-        <About  />
-    </div>
-</section>
 
 
 
@@ -34,5 +36,15 @@
     padding-bottom: 32px;
     
 }
+.scroll-snap {
+  width: 100vw;
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  scroll-snap-type: mandatory;
+  overflow: auto;
+}
 
+section {
+  scroll-snap-align: start;
+}
 </style>    

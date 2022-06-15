@@ -12,7 +12,11 @@
     --secundary-color: #FCE7C7;
     color: var(--secundary-color);
     background-color: var(--primary-color);
+    
   }
+body{
+    scroll-behavior: smooth;
+}
 h1 {
     font-size: 3.1rem;
 }
