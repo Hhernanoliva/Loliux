@@ -1,14 +1,20 @@
 <script>
     import "../app.scss";
-    import Hero from "$lib/hero/hero.svelte"
-    import About from "$lib/about/about.svelte"
+    import Hero from "./hero/hero.svelte"
+    import About from "./about/about.svelte"
+    import Project from "./project/project.svelte"
 </script>
 
 
 <div class="scroll-snap">
-    <section>
+    <section>  
         <div class="wrap">
             <Hero />
+        </div>
+    </section>
+    <section>  
+        <div class="wrap">
+            <Project />
         </div>
     </section>
     

@@ -8,7 +8,7 @@
 
 
 <div class="md:my-10 w-full grid grid-cols-1 md:grid-cols-3 gap-x-5" >
-    <div class=" m-auto relative img-content justify-center">
+    <div class=" m-auto relative img-content justify-center hidden">
             <img src="{img}" alt="Foto de Leonela justify-center" >
             <div class="absolute inset-0 spin justify-center">
                 <EllipseGradient />
@@ -58,7 +58,9 @@
         height: 200px;
     }
     img{
-        width: 100%;
+        display: inline-block;
+        margin: 0 auto;
+        width: 80%;
         display: block;
         border-radius: 50%;
         z-index: 1;
@@ -67,7 +69,7 @@
         font-size: 0.875rem;
     }
     .spin{
-        animation: spin 10s linear infinite;
+        animation: spin 15s linear infinite;
     }
     @keyframes spin{
         to { transform: rotate(360deg);}
