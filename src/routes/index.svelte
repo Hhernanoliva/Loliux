@@ -42,13 +42,13 @@
     padding-bottom: 32px;
     
 }
-.scroll-snap {
-  width: 100vw;
-  height: 100vh;
-  scroll-snap-type: y mandatory;
-  scroll-snap-type: mandatory;
-  overflow: auto;
-}
+// .scroll-snap {
+//   width: 100vw;
+//   height: 100vh;
+//   scroll-snap-type: y mandatory;
+//   scroll-snap-type: mandatory;
+//   overflow: auto;
+// }
 
 section {
   scroll-snap-align: start;

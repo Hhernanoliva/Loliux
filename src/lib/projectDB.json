@@ -1,28 +1,28 @@
-{
-    "navbar":{
-        "links": 
-            [
-                {"name": "Sobre Mi", "path": "about"},
-                {"name": "Proyectos", "path": "projects"},
-                {"name": "Contacto", "path": "contact"} 
-            ],
-        "logoName": "Leonela Venturo"},
-    "hero":{
-        "h1": "Diseñadora UX&nbsp;UI",
-        "h2": "Leonela Venturo",
-        "p": "Mi objetivo es brindarle al usuario una experiencia confortable e&nbsp;inclusiva. <br> Soy una apasionada por los pixeles y el juego en&nbsp;equipo.",
-        "alt": ""
-        },
-    "about":{
-        "h3": "Sobre Mi",
-        "p": "Desde pequeña me caracterice por ser detallista y observadora, ahora de adulta mi pasión no son sólo los píxeles, sino también obtener un producto valioso, utilizable&nbsp;y&nbsp;accesible.<br> Mi camino con la experiencia del usuario comenzó hace 2 años por curiosidad, realicé los cursos de Diseño UX UI, Ux Writing y Ux Research en CoderHouse, para experimentar y aprender a cubrir las necesidades de los clientes, creando un vínculo con&nbsp;sus&nbsp;productos.<br> Ser autodidacta es otra de mis características personales de las cuales me nutro para seguir aprendiendo de mi gran maestro digital&nbsp;Google.<br> Una de mis metas es ser parte de un equipo en el cual pueda demostrar mis habilidades y sumar mi experiencia logrando obtener un resultado eficaz&nbsp;y&nbsp;apetecible.",
-        "span": "Te invito a ver mis proyectos de diseño&nbsp;y&nbsp;desarrollo:",
-        "spann": "Mas sobre mi perfil:"
-        },
-    "networks": {
-        "behance": "",
-        "github": "",
-        "linkedin": "",
-        "instagram": ""  
+[
+    {
+        "title": "Tutoragio APP",
+        "copy": "Una aplicación destinada para quienes estén estudiando y para quienes buscan ganar experiencia enseñando.",
+        "time": "2 meses",
+        "src": "../../static/tutoragio.png",
+        "imgWidth": "357",
+        "imgHeight": "132"
+    },
+    {
+        "title": "EnlaNube APP",
+        "copy": "Caso de estudio Ux Writing para Pyme que brinda administracion y contultoria E-commerce.",
+        "time": "2 meses",
+        "src": "../../static/enlanube.png",
+        "imgWidth": "230",
+        "imgHeight": "133.08"
+    },
+    {
+        "title": "EnlaNube APP",
+        "copy": "Caso de estudio Ux Writing para Pyme que brinda administracion y contultoria E-commerce.",
+        "time": "2 meses",
+        "src": "../../static/enlanube.png",
+        "imgWidth": "230",
+        "imgHeight": "133.08"
     }
-}
+]
+    
+

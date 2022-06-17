@@ -6,17 +6,82 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
 
-
+// ----- SET -----
 :root {
     --primary-color: #303442;
     --secundary-color: #FCE7C7;
+    --pink-color: #FFB3DD;
+    --orange-color: #FFE2A7;
+    --eyellow-color: #FFFA9D;
+    --cyan-color: #AFE2FF;
+    --violet-color: #D7A2F9;
+    --white-color: #f6f5f5;
+    --blue-color: #6F96BD;
+
     color: var(--secundary-color);
     background-color: var(--primary-color);
     
   }
-body{
-    scroll-behavior: smooth;
+// ----- / SET -----
+
+// ----- BACKGROUND COLORS -----
+.bg-primary-template{
+    background-color: var(--primary-color);
 }
+.bg-secondary{
+    background-color: var(--secundary-color);
+}
+.bg-pink{
+    background-color: var(--pink-color);
+}
+.bg-orange{
+    background-color: var(--orange-color);
+}
+.bg-eyellow{
+    background-color: var(--eyellow-color);
+}
+.bg-cyan{
+    background-color: var(--cyan-color);
+}
+.bg-blue{
+    background-color: var(--blue-color);
+}
+.bg-violet{
+    background-color: var(--violet-color);
+}
+.bg-white{
+    background-color: var(--white-color);
+}
+// ----- / BACKGROUND COLORS -----
+
+// ----- TEXT COLORS -----
+.txt-primary{
+    color: var(--primary-color);
+}
+.txt-secondary{
+    color: var(--secundary-color);
+}
+.txt-pink{
+    color: var(--pink-color);
+}
+.txt-orange{
+    color: var(--orange-color);
+}
+.txt-eyellow{
+    color: var(--eyellow-color);
+}
+.txt-blue{
+    color: var(--blue-color);
+}
+.txt-violet{
+    color: var(--violet-color);
+}
+.txt-white{
+    color: var(--white-color);
+}
+// ----- / TEXT COLORS -----
+
+// ----- FONTSIZE GENERAL -----
 h1 {
     font-size: 3.1rem;
 }
@@ -36,6 +101,7 @@ h4{
 p{
     font-size: 1.125rem;
 }
+
 @media (max-width: 768px) {
     h1 {
         font-size: 1.9rem;
@@ -56,4 +122,9 @@ p{
     p{
         font-size: 1rem;
     }
+}
+// ----- / FONTSIZE GENERAL -----
+
+body{
+    scroll-behavior: smooth;
 }
