@@ -42,6 +42,12 @@
     padding-bottom: 32px;
     
 }
+@media (max-width: 768px) {
+    .wrap{
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
 // .scroll-snap {
 //   width: 100vw;
 //   height: 100vh;

@@ -8,9 +8,9 @@
 <div id="main" class="flex flex-wrap flex-row justify-center justify-items-center w-full"> 
 
     {#each projectDB as { title, copy, time, src, imgWidth, imgHeight } }
-        <div class="shadow-md drop-shadow-md rounded-2xl max-w-xs p-2 mb-10 md:mb-20 md:mr-12 bg-white">
+        <div class="shadow-md drop-shadow-md rounded-2xl max-w-xs p-2 mb-10 md:mb-20 mx-0 md:mx-12 bg-white">
             <a href="">
-            <div class="h-72 overflow-hidden flex justify-center justify-items-center">
+            <div class="h-64 md:h-72 overflow-hidden flex justify-center justify-items-center">
                 <img {src} alt="adidas" style="width: {imgWidth}px; height: {imgHeight}px" class="p-5 m-auto " />
             </div>
             <div class="m-1 p-4 rounded-lg bg-secondary">
