@@ -3,7 +3,7 @@
         "title": "Tutoragio",
         "copy": "Una aplicación destinada para quienes estén estudiando y para quienes buscan ganar experiencia enseñando.",
         "time": "2 meses",
-        "src": "/images/tutoragio.png",
+        "src": "tutoragio.png",
         "imgWidth": "357",
         "imgHeight": "132"
     },
@@ -11,7 +11,7 @@
         "title": "EnlaNube",
         "copy": "Caso de estudio Ux Writing para Pyme que brinda administracion y contultoria E-commerce.",
         "time": "2 meses",
-        "src": "/images/enlanube.png",
+        "src": "enlanube.png",
         "imgWidth": "230",
         "imgHeight": "133.08"
     }
