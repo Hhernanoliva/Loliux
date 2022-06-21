@@ -4,7 +4,7 @@
 </script>
 
 <div id="main" class="flex flex-wrap flex-row justify-center justify-items-center w-full">
-
+<h1>UQE ONDAAAA HERMANOO</h1>
     {#each projectDB as { title, copy, time, src, imgWidth, imgHeight } }
         <div class="shadow-md drop-shadow-md rounded-2xl max-w-xs p-2 mb-10 md:mb-20 mx-0 md:mx-12 bg-white">
             <article>
