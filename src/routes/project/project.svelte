@@ -1,12 +1,6 @@
 <script>
     import projectDB from "$lib/projectDB"
  
-    // IMAGENES
-    import logoTutoragio from "$lib/imgs/tutoragio.png"
-    import logo2 from "$lib/imgs/enlanube.png"
-    //  /IMAGENES
-    
-    let logo1 = logoTutoragio
 </script>
 
 <div id="main" class="flex flex-wrap flex-row justify-center justify-items-center w-full">
@@ -22,7 +16,7 @@
                     <h4 class="txt-primary font-bold title">
                         {title}
                     </h4>
-                    <p class="txt-primary copy">
+                    <p class="txt-primary copy " style="min-height: 110px">
                         {copy}
                     </p>
                     <div class="flex items-center justify-between time mt-1">
